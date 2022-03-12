@@ -1,0 +1,110 @@
+
+html,
+body{
+  background-color: #fff;
+  color: #2e2f30;
+  letter-spacing: 0.5px;
+  font-family: "PingFang SC","Helvetica Neue",Helvetica,"Hiragino Sans GB","Microsoft YaHei",Arial,sans-serif;
+  min-height: 100%;
+  position: relative;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  margin: 0;
+}
+body,
+button,
+html,
+ol,
+p,
+pre,
+td,
+textarea,
+th,
+ul {
+  margin: 0;
+  padding: 0;
+}
+a,
+article,
+aside,
+button,
+div,
+figure,
+footer,
+header,
+li,
+nav,
+ol,
+p,
+pre,
+section,
+span,
+td,
+th,
+ul {
+  // -webkit-touch-callout: none;
+  // -webkit-user-select: none;
+  // user-select: none;
+  border: none;
+}
+body {
+  font-family: Helvetica;
+  color: #dddbdc;
+}
+li {
+  list-style: none;
+}
+a,
+button,
+input {
+  outline: 0;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+}
+img{
+  margin: 0; padding: 0;
+  display: block;
+}
+a:focus {
+  outline: 0;
+}
+input {
+  border: none;
+  outline: 0;
+}
+[id*='ads'] {
+  width: 0 !important;
+  height: 0 !important;
+  opacity: 0 !important;
+  display: none !important;
+  visibility: hidden !important;
+  z-index: -9999 !important;
+}
+::-webkit-scrollbar {
+  height: 0;
+  width: 0;
+}
+.flex-row {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-lines: single;
+  box-lines: single;
+  -webkitbox-pack: center;
+  box-pack: center;
+  -webkit-box-align: center;
+  box-align: center;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.ellipsis {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
