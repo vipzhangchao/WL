@@ -4,7 +4,7 @@
       <Aside :foldAside="foldAside" />
        <el-container direction="vertical" class="main">
       <!-- 头部 -->
-      <el-header> <Header /></el-header>
+      <Header />
       <!-- 内容 -->
         <Content />
       <!-- 底部 -->

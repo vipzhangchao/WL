@@ -2,7 +2,6 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import login from '@/page/login.vue'
-import notFound from '@/page/404.vue'
 import home from '@/page/home.vue'
 import sub11 from '@/page/menu1/sub1.vue'
 import sub12 from '@/page/menu1/sub2.vue'
@@ -21,12 +20,6 @@ export default new Router({
     {
       path: '/login',
       component: login,
-      name: '',
-      hidden: true
-    },
-    {
-      path: '/404',
-      component: notFound,
       name: '',
       hidden: true
     },
