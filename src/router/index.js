@@ -6,7 +6,8 @@ import home from '@/page/home.vue'
 import sub11 from '@/page/menu1/sub1.vue'
 import sub12 from '@/page/menu1/sub2.vue'
 import sub21 from '@/page/menu2/sub1.vue'
-
+import relation from '@/page/relation/index.vue'
+import user from '@/page/user/index.vue'
 
 Vue.use(Router)
 
@@ -24,7 +25,7 @@ export default new Router({
       hidden: true
     },
     {
-      path: '/menu1',
+      path: '/main',
       component: home,
       name: '菜單一',
       children: [
@@ -41,7 +42,7 @@ export default new Router({
       ]
     },
     {
-      path: '/menu2',
+      path: '/main',
       component: home,
       name: '菜單二',
       children: [
@@ -49,6 +50,30 @@ export default new Router({
           path: 'sub21',
           component: sub21,
           name: 'sub21'
+        }
+      ]
+    },
+    { 
+      path: '/main',
+      component: home,
+      name: '关系管理',
+      children: [
+        {
+          path: 'relation',
+          component: relation,
+          name: 'relation'
+        }
+      ]
+    },
+    { 
+      path: '/main',
+      component: home,
+      name: '用户管理',
+      children: [
+        {
+          path: 'user',
+          component: user,
+          name: 'user'
         }
       ]
     }

@@ -91,7 +91,7 @@ export default {
               center: true,
               type: 'success'
             });
-            this.$router.push({ path: '/menu1/sub1' }) // 去主页
+            this.$router.push({ path: '/main/sub1' }) // 去主页
           }, 1000)
         } else {
           console.log('error submit!!')

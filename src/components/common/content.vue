@@ -27,5 +27,7 @@ export default {
 <style lang="scss">
 .contentBox {
   flex: 1;
+  margin: 20px 20px 0 20px;
+  // overflow: hidden;
 }
 </style>

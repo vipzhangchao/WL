@@ -16,52 +16,36 @@
         @close="handleClose"
         background-color="#545c64"
         text-color="#fff"
-
         active-text-color="#ffd04b">
 
-        <el-submenu index="1">
-            <template slot="title">
-            <i class="el-icon-s-custom"></i>
-            <span>白事管理</span>
-            </template>
-            <el-menu-item-group>
-                <el-menu-item index="/menu2/sub21">白事管理</el-menu-item>
-            </el-menu-item-group>
-        </el-submenu>
 
-        <el-submenu index="2">
-            <template slot="title">
-            <i class="el-icon-user-solid"></i>
-            <span>挽联管理</span>
-            </template>
-            <el-menu-item-group>
-                <el-menu-item index="/menu1/sub1">葬礼挽联管理列表</el-menu-item>
-                <el-menu-item index="/menu1/sub2">重大葬礼挽联管理</el-menu-item>
-            </el-menu-item-group>
-        </el-submenu>
+      <el-menu-item index="/main/sub21">
+        <i class="el-icon-s-custom"></i>
+        <span slot="title">白事管理</span>
+      </el-menu-item>
+
+      <el-submenu index="2">
+        <template slot="title">
+        <i class="el-icon-user-solid"></i>
+        <span>挽联管理</span>
+        </template>
+        <el-menu-item-group>
+          <el-menu-item index="/main/sub1">葬礼挽联管理列表</el-menu-item>
+          <el-menu-item index="/main/sub2">重大葬礼挽联管理</el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+      
+      <el-menu-item index="/main/relation">
+        <i class="el-icon-s-custom"></i>
+        <span slot="title">关系管理</span>
+      </el-menu-item>
+
+      <el-menu-item index="/main/user">
+        <i class="el-icon-s-custom"></i>
+        <span slot="title">用户管理</span>
+      </el-menu-item>
 
     </el-menu>
-       <!-- <el-scrollbar style="height: 100%; width: 100%;">
-        <el-menu :default-active="menuActiveName || 'home'" :collapse="!foldAside" :collapseTransition="false" background-color="#263238" text-color="#8a979e">
-          <el-menu-item index="home" @click="$router.push('/menu2/sub1')" style="width:200px">
-            <i class="el-icon-s-home"></i>
-            <span slot="title">白事管理</span>
-          </el-menu-item>
-          
-          <el-submenu index="demo" style="width:200px">
-            <template slot="title">
-              <i class="el-icon-document"></i>
-              <span>挽联管理</span>
-            </template>
-            <el-menu-item index="demo-echarts" @click="$router.push('/menu1/sub1')">
-              <span slot="title">重大葬礼挽联管理</span>
-            </el-menu-item>
-            <el-menu-item index="demo-ueditor" @click="$router.push('/menu1/sub2')">
-              <span slot="title">重大葬礼挽联管理</span>
-            </el-menu-item>
-          </el-submenu>
-        </el-menu>
-      </el-scrollbar> -->
     </div>
   </div>
 </template>
