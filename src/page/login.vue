@@ -8,7 +8,7 @@
       <div class="loginTitle">
         <img src="@/assets/img/logo.png" alt="" class="logo">
         <div class="logoInfo">
-          <span class="name">智能打印系统 </span>
+          <span class="name">智能打印系统1 </span>
           <span class="describe">挽联</span>
           <span class="enTitle">INTELLIGENT PRINTING SYSTEM</span>
         </div>
