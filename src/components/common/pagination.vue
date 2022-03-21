@@ -16,7 +16,7 @@ export default {
   props: {
     totalPage: {
       type: Number,
-      default: 200
+      default: 0
     },
     currentPage: {
       type: Number,
@@ -24,7 +24,7 @@ export default {
     },
     pageSize: {
       type: Array,
-      default: [10, 20, 30, 40]
+      default: () =>[10, 20, 30, 40]
     }
   },
   methods: {
